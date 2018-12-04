@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="json_simple-1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/json_simple-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/okhttp-2.6.0(1).jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/okio-1.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

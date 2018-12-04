@@ -38,7 +38,7 @@ public class AccesoJDBC implements I_Acceso_Datos {
 			}
 
 		} catch (ClassNotFoundException e1) {
-			System.out.println("ERROR: No Conectado a la base de datos. No se ha encontrado el driver de conexion");
+			System.out.println("ERROR: No Conectado a la base de datos. No se ha encontrado el driver de conexion" + e1.getMessage());
 			//e1.printStackTrace();
 			System.out.println("No se ha podido inicializar la maquina\n Finaliza la ejecucion");
 			System.exit(1);
